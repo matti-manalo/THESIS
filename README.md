@@ -8,6 +8,18 @@ GitHub can be overwhelming at first, especially if you have never used this plat
 2. [Start your journey/Learn the basics of GitHub](https://docs.github.com/en/get-started/start-your-journey)
 3. [GitHub Skills](https://skills.github.com/)
 
+Also, it is important to get the basics of Python. It makes sense why **<ins>Raspberry Pi</ins>** is called like that since Python is its foundation.
+
+Here is a quick guide, just the super basics, in 10 minutes.
+
+[![Learn Python in Less than 10 Minutes for Beginners (Fast & Easy)](https://img.youtube.com/vi/fWjsdhR3z3c/0.jpg)](https://www.youtube.com/watch?v=fWjsdhR3z3c)
+
+Lastly, of course, we have to grasp **<ins>Computer Vision</ins>.** It is expected of us to be a master of this topic, so we can answer questions and explain concepts with ease. It is a hard topic to learn, especially when starting from the ground up. But yeah, **<ins>we absolutely got this.</ins>**
+
+There are prerequisites for Computer Vision, such as Deep Learning, Artificial Neural Networks, and many more. I absolutely think we have to study all of these concepts really well.
+
+In the end, this will be our forte, something that is supposed to combine all the learnings we had studying this course. Ironically, we chose a topic that was never taught to us, but it was taught to Computer Engineering students as an elective.
+
 ### Goals of this GitHub Repo
 1. Let everyone be on the same page in terms of hardware and software components
 2. Collaborate on the software (object detection algorithm or YOLOv8)
