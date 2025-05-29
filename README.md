@@ -9,11 +9,12 @@ GitHub can be overwhelming at first, especially if you have never used this plat
 3. https://docs.github.com/en/get-started/start-your-journey
 
 ### Goals of this GitHub Repo
-1. Let everyone be on the same page in terms of hardware and software components
-2. Collaborate on the software (object detection algorithm)
-3. Documentation
-4. Learn, learn, learn
-5. ***Give us confidence that we absolutely know what we are doing***
+1. ***Give us confidence that we absolutely know what we are doing***
+2. Let everyone be on the same page in terms of hardware and software components
+3. Collaborate on the software (object detection algorithm or YOLOv8)
+4. Track all changes made ***(very important)***
+5. Documentation
+6. Learn, learn, learn
 
 ### THESIS GitHub Repo Checklist
 - [ ] Hardware set-up
@@ -58,3 +59,29 @@ Code Block Example:
 ```
 git status
 ```
+
+Picture -> Import -> Annotate -> Export
+
+### Training the object detection algorithm (YOLOv8) using Google Colab
+
+Show steps on how to train
+
+List important parameters and explain what they do
+
+Exporting .onnx
+
+### Deploying on the Raspberry Pi 5 with AI Kit add-on
+
+WSL
+
+Converting .onnx to .hef
+
+Running the .hef on RPi 5
+
+File transfer between RPi and PC
+
+### Evaluating the performance of the system
+
+METRICS
+
+Precision, Recall, mAP, F1 score
