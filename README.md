@@ -65,7 +65,7 @@ An important detail from the guide that can be listed here is the use of **Raspb
 
 ### Raspberry Pi AI Kit
 
-Before installing the AI Kit, it was recommended to install the official active cooler on the RPi to maximize the performance of the system
+Before installing the AI Kit, it was recommended to install the official active cooler on the RPi to maximize the performance of the system.
 
 ### Arducam IMX519
 
