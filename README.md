@@ -14,6 +14,10 @@ Here is a quick guide, just the super basics, in 10 minutes.
 
 [![Learn Python in Less than 10 Minutes for Beginners (Fast & Easy)](https://img.youtube.com/vi/fWjsdhR3z3c/0.jpg)](https://www.youtube.com/watch?v=fWjsdhR3z3c)
 
+This one is a more detailed guide but guaranteed to actually learn the essentials in Python. (There are 15 parts)
+
+[Introduction to Python 3 (basics) - Learning to Program with Python 3](https://pythonprogramming.net/introduction-learn-python-3-tutorials/)
+
 Lastly, of course, we have to grasp **<ins>Computer Vision</ins>.** It is expected of us to be a master of this topic, so we can answer questions and explain concepts with ease. It is a hard topic to learn, especially when starting from the ground up. But yeah, **<ins>we absolutely got this.</ins>**
 
 There are prerequisites for Computer Vision, such as Deep Learning, Artificial Neural Networks, and many more. I absolutely think we have to study all of these concepts really well.
