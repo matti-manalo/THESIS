@@ -126,6 +126,12 @@ Typically, the hardware set-up is a one-time thing, and 99.99% of the time the p
 * Deploying on the Raspberry Pi 5 with AI Kit add-on
 * Evaluating the performance of the system
 
+The workflow we are following heavily follows the guide created by Cytron. It covers everything that we need to do from creating the custom dataset to deploying on the RPi. This is the link for the guide:
+
+[Custom Object Detection on Raspberry Pi AI Kit with Hailo8L](https://www.cytron.io/tutorial/raspberry-pi-ai-kit-custom-object-detection-with-h)
+
+I'll pick out some parts on the guide, especially the ones where I encountered problems.
+
 ### Gathering of samples
 
 We gathered microplastics from the shore of Manila Bay and Dolomite Beach. Others were artificially created by cutting plastic wrappers into tiny pieces. 
