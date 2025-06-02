@@ -104,8 +104,10 @@ After connecting everything, we can move on to testing whether the components wo
 ```
 rpicam-hello -t 10s
 ```
-
-Test whether the camera works. It is something similar to printing "Hello World!"
+```
+libcamera-hello -t 0 --width 640 --height 640
+```
+Test whether the camera works. It is something similar to printing "Hello World!" Any of the two codes should work.
 
 ```
 rpicam-hello -t 0 --post-process-file /usr/share/rpi-camera-assets/hailo_yolov8_inference.json
@@ -130,25 +132,21 @@ The workflow we are following heavily follows the guide created by Cytron. It co
 
 [Custom Object Detection on Raspberry Pi AI Kit with Hailo8L](https://www.cytron.io/tutorial/raspberry-pi-ai-kit-custom-object-detection-with-h)
 
-I'll pick out some parts on the guide, especially the ones where I encountered problems.
-
 ### Gathering of samples
 
-We gathered microplastics from the shore of Manila Bay and Dolomite Beach. Others were artificially created by cutting plastic wrappers into tiny pieces. 
-
-**Not much to say about it, but I will come back on this section soon.**
+We gathered microplastics from the shore of Manila Bay and Dolomite Beach. Others were artificially created by cutting plastic wrappers into tiny pieces. We ensured that the microplastics gathered are only 1 mm to 5 mm since it is our scope and as stated in our official document. We placed these microplastics on a petridish and added water afterwards. Each petridish is a sample that could either have different or same number of microplastics as well as non-microplastics.
 
 ### Creating custom dataset
 
-After gathering the samples, we took hundreds of pictures of the samples using the Raspberry Pi 5 and Arducam IMX519. Then, we used Roboflow to create the custom dataset. I will thoroughly explain each step moving forward.
+After gathering the samples, we took hundreds of pictures of the samples using the Raspberry Pi 5 and Arducam IMX519. Then, we used Roboflow to create the custom dataset.
 
-Taking pictures of the samples
-
-Code Block Example:
+In taking pictures of the samples, the following codes are used:
 
 ```
-git status
+libcamera-still -t 0 --autofocus-on-capture --datetime --timelapse 1000 --width 640 --height 640
 ```
+
+It is an automated command that captures pictures every 5 seconds since the autofocus algorithm takes 5 seconds to correctly adjust the lens. The height and width of the image 640x640 due to YOLOv8 requiring an input size of 640x640. The file name of the picture is the date and time the picture was taken.
 
 Picture -> Import -> Annotate -> Export
 
