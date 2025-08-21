@@ -1,3 +1,21 @@
+# Important Links
+
+[hailo-rpi5-examples](https://github.com/hailo-ai/hailo-rpi5-examples)
+
+For detection.py and detection_v2.py
+
+[hailo-app-infra](https://github.com/hailo-ai/hailo-apps-infra)
+
+For pipelines and Gstreamer
+
+[Install WSL and Ubuntu](https://www.youtube.com/watch?v=cJWhyycbPyA)
+
+For using GitHub in Windows
+
+[Generating SSH Keys in GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+For conveniently using Git operations without the need of entering passwords
+
 # THESIS AISL-1-2425-2
 AQUA-μ: A Portable Microplastic Detection System using Object Detection Algorithm 
 
